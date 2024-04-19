@@ -8,7 +8,7 @@ const Skills = () => {
         <h3 className="text-2xl font-bold text-custom-red">My Arsenals</h3>
         <div className="py-2">
           <h4 className="text-base font-bold mb-2">Programming Languages</h4>
-          <div className="flex gap-2 font-semibold text-base">
+          <div className="flex gap-2 font-semibold text-base flex-wrap">
             {renderSkill("HTML", "bg-custom-lime")}
             {renderSkill("CSS/SCSS", "bg-custom-lime")}
             {renderSkill("JavaScript", "bg-custom-lime")}

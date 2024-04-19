@@ -7,6 +7,15 @@
   body {
     @apply font-oxygen bg-custom-sand;
   }
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 85px;
+  }
+  @media (max-width: 768px) {
+    body {
+      scroll-padding-top: 60px; /* Adjusted for smaller screens */
+    }
+  }
 }
 
 @layer utilities {

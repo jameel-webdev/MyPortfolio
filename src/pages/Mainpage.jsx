@@ -7,7 +7,7 @@ import Skills from "../components/Skills";
 const Mainpage = () => {
   return (
     <div className="flex flex-col">
-      <div className="md:bg-white/30 backdrop-blur-md md:sticky md:top-0 md:z-10">
+      <div className="md:bg-white/30 backdrop-blur-md sticky top-0 z-10">
         <Header />
       </div>
 
