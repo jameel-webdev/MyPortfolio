@@ -14,7 +14,7 @@ const Sidebar = () => {
   };
 
   return (
-    <div className="bg-custom-red h-full md:h-[calc(100vh+10%)] md:sticky md:top-0 md:left-0">
+    <div className="bg-custom-red h-full md:h-[calc(100vh+7.2%)] md:sticky md:top-0 md:left-0">
       <div className="p-6">
         <div className="text-right">
           <span className="p-3 rounded-lg font-bold bg-white/25">

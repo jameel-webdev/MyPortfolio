@@ -4,9 +4,11 @@ import { IoIosLink } from "react-icons/io";
 
 const Contact = () => {
   return (
-    <div className="my-10" id="contact">
-      <h3 className="text-2xl font-bold text-custom-red">Contact me</h3>
-      <div className="hidden text-4xl md:block">&#8592;</div>
+    <div id="contact">
+      <h3 className="text-2xl font-bold text-custom-red">
+        Get in touch with me anytime
+      </h3>
+      <div className="hidden text-5xl md:block">&#8592;</div>
       <div className="my-4 md:hidden block">
         {renderLink("https://github.com/jameel-webdev", <FaGithub />, "Github")}
         {renderLink(
