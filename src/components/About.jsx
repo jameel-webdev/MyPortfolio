@@ -8,7 +8,7 @@ const About = () => {
       className="border-2 border-custom-sand bg-white rounded-[30px]"
       id="about"
     >
-      <div className="px-5 pt-[10px]">
+      <div className="px-5 py-3">
         <h3 className="text-2xl font-bold text-custom-red">About Me</h3>
         <div className="font-semibold text-zinc-500 text-base leading-relaxed text-justify indent-paragraph pt-1">
           <p>
@@ -30,34 +30,34 @@ const About = () => {
             dedication and fresh perspectives.
           </p>
         </div>
-        <div className="mt-2 mb-4 flex flex-wrap gap-4">
+        <div className="my-2 flex flex-wrap gap-4">
           {renderLink(
             "mailto:jameel.webdev@gmail.com",
             <BiLogoGmail />,
             "Send Email",
             "Gmail",
-            "bg-custom-testing"
+            "testing"
           )}
           {renderLink(
             "https://github.com/jameel-webdev",
             <FaGithub />,
             "Github",
             "Github",
-            "bg-custom-bg"
+            "bg"
           )}
           {renderLink(
             "https://linkedin.com/in/jameel-webdev",
             <FaLinkedin />,
             "LinkedIn",
             "LinkedIn",
-            "bg-custom-cloud"
+            "cloud"
           )}
           {renderLink(
             "https://drive.google.com/file/d/1sSkjw_tNft8_fGyvcORaMjlInl79yzsV/view?usp=sharing",
             <MdDescription />,
             "Resume",
             "Resume",
-            "bg-custom-teal"
+            "teal"
           )}
         </div>
       </div>
@@ -69,7 +69,7 @@ function renderLink(href, icon, label, name, color) {
   return (
     <a
       href={href}
-      className={`px-4 py-1 flex justify-center items-center gap-2 ${color} rounded-full text-base font-semibold`}
+      className={`px-4 py-2 flex justify-center items-center gap-2 bg-custom-${color} rounded-full text-base font-semibold hover:text-custom-red hover:bg-custom-bg`}
       aria-label={label}
       target="_blank"
       rel="noopener noreferrer"

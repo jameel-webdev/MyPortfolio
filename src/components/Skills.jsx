@@ -1,7 +1,7 @@
 const Skills = () => {
   return (
     <div
-      className="border-2 border-custom-sand bg-white rounded-[30px] my-9"
+      className="border-2 border-custom-sand bg-white rounded-[30px] my-8"
       id="skills"
     >
       <div className="px-5 py-4">
