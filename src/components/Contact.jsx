@@ -36,18 +36,36 @@ const Contact = () => {
       </div>
       <div className="text-balance font-semibold py-2 my-2">
         <div className="flex flex-row text-custom-red gap-4 underline">
-          <div className="flex items-center flex-wrap">
+          <a
+            href="https://dev.to/jameel-webdev"
+            aria-label="https://dev.to/jameel-webdev"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center flex-wrap"
+          >
             dev
             <IoIosLink />
-          </div>
-          <div className="flex items-center">
+          </a>
+          <a
+            href="https://www.polywork.com/jameel_webdev"
+            aria-label="https://www.polywork.com/jameel_webdev"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center"
+          >
             polywork
             <IoIosLink />
-          </div>
-          <div className="flex items-center">
+          </a>
+          <a
+            href="https://github.com/jameel-webdev/npx-jameel-webdev"
+            aria-label="https://github.com/jameel-webdev/npx-jameel-webdev"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center"
+          >
             npmprofile
             <IoIosLink />
-          </div>
+          </a>
         </div>
       </div>
     </div>

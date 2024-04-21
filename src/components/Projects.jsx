@@ -5,9 +5,11 @@ const Projects = () => {
   return (
     <div className="my-7" id="projects">
       <h3 className="text-2xl font-bold text-custom-red">Projects</h3>
-      {projects.map((e) => (
-        <ProjectCard key={e.id} project={e} />
-      ))}
+      <div className="flex flex-wrap gap-3 lg:gap-2 mt-3">
+        {projects.map((e) => (
+          <ProjectCard key={e.id} project={e} />
+        ))}
+      </div>
     </div>
   );
 };
