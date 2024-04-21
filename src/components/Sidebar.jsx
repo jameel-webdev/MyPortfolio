@@ -41,7 +41,7 @@ const Sidebar = () => {
         </p>
         <div className="pt-4 flex gap-4 pb-20 md:pb-24 flex-wrap">
           {renderLink(
-            "https://drive.google.com/file/d/1sSkjw_tNft8_fGyvcORaMjlInl79yzsV/view?usp=sharing",
+            "https://drive.google.com/file/d/1Tb2T3u_-iiNxCIiVwQXPaB1VqkBB2Olx/view?usp=sharing",
             <MdDescription />,
             "Resume"
           )}

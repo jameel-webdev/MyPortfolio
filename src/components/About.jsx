@@ -53,7 +53,7 @@ const About = () => {
             "cloud"
           )}
           {renderLink(
-            "https://drive.google.com/file/d/1sSkjw_tNft8_fGyvcORaMjlInl79yzsV/view?usp=sharing",
+            "https://drive.google.com/file/d/1Tb2T3u_-iiNxCIiVwQXPaB1VqkBB2Olx/view?usp=sharing",
             <MdDescription />,
             "Resume",
             "Resume",
