@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { FaGithub, FaGlobe } from "react-icons/fa";
 
 const ProjectCard = ({ project }) => {
@@ -45,7 +46,15 @@ const ProjectCard = ({ project }) => {
           <FaGlobe /> Visit Site
         </a>
       </div>
-      <img src={img} alt="Project1" className="rounded-2xl w-full h-[250px]" />
+      <img
+        src={img}
+        alt="Project1"
+        className="rounded-2xl md:w-full"
+        width="329"
+        height="auto"
+        loading="lazy"
+      />
+
       <h4 className="text-xl font-bold my-2">{title}</h4>
       <div className="text-sm text-zinc-500 py-1 text-justify">
         <span className="font-bold">Description: </span> {description}

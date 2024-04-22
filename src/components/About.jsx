@@ -53,7 +53,7 @@ const About = () => {
             "cloud"
           )}
           {renderLink(
-            "https://drive.google.com/file/d/1Tb2T3u_-iiNxCIiVwQXPaB1VqkBB2Olx/view?usp=sharing",
+            "https://github.com/jameel-webdev/MyPortfolio/files/15058586/JameelAhmed_Resume.pdf",
             <MdDescription />,
             "Resume",
             "Resume",

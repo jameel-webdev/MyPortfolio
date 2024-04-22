@@ -5,7 +5,7 @@ const Credentials = () => {
     <>
       <div className="my-7" id="credentials">
         <h3 className="text-2xl font-bold text-custom-red mb-5">Credentials</h3>
-        <div className="lg:flex lg:flex-row-reverse lg:gap-3">
+        <div className="lg:flex lg:flex-row-reverse lg:gap-2">
           <div className="border-2 border-custom-sand bg-white rounded-[30px] px-5 py-3 my-3">
             <div
               className={`font-bold text-base py-1 px-4 rounded-full bg-custom-lime inline-block my-2`}
