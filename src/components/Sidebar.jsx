@@ -4,25 +4,16 @@ import { MdDescription } from "react-icons/md";
 import pfp from "../assets/profile-pic.png";
 
 const Sidebar = () => {
-  const getGreeting = () => {
-    const now = new Date();
-    const hour = now.getHours();
-    if (hour >= 4 && hour < 12) return "Good Morning";
-    else if (hour >= 12 && hour < 17) return "Good Afternoon";
-    else if (hour >= 17 && hour < 22) return "Good Evening";
-    else return "Good Night";
-  };
-
   return (
     <div className="bg-custom-red h-full md:h-[calc(100vh+7.2%)] md:sticky md:top-0 md:left-0">
-      <div className="p-6">
+      {/* <div className="p-6">
         <div className="text-right">
           <span className="p-3 rounded-lg font-bold bg-white/20 text-black">
             Hello, <span className="text-custom-sand">{getGreeting()}</span>
           </span>
         </div>
-      </div>
-      <div className="pl-6 pr-1 py-1">
+      </div> */}
+      <div className="pl-6 pr-1 py-20 ">
         <img
           src={pfp}
           alt="Profile picture of Jameel Ahmed"
