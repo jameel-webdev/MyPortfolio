@@ -34,7 +34,7 @@ const Contact = () => {
         I strive for a balance between professional achievements and personal
         development.
       </div>
-      <div className="text-balance font-semibold py-2 my-2">
+      {/* <div className="text-balance font-semibold py-2 my-2">
         <div className="flex flex-row text-custom-red gap-4 underline">
           <a
             href="https://dev.to/jameel-webdev"
@@ -44,16 +44,6 @@ const Contact = () => {
             className="flex items-center flex-wrap"
           >
             dev
-            <IoIosLink />
-          </a>
-          <a
-            href="https://www.polywork.com/jameel_webdev"
-            aria-label="https://www.polywork.com/jameel_webdev"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center"
-          >
-            polywork
             <IoIosLink />
           </a>
           <a
@@ -67,7 +57,7 @@ const Contact = () => {
             <IoIosLink />
           </a>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
